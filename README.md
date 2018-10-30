@@ -16,21 +16,21 @@
 
 #### 要求  
 * Figure 1：首次进入，呈现创建密码界面。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%201.jpg)
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig1.jpg)
 * Figure 2：若密码不匹配，弹出Toast提示。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%202.jpg) 
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig2.jpg) 
 * Figure 3：若密码为空，弹出Toast提示。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%203.jpg) 
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig3.jpg) 
 * Figure 4：退出后第二次进入呈现输入密码界面。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%204.jpg) 
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig4.jpg) 
 * Figure 5：若密码不正确，弹出Toast提示。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%205.jpg)
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig5.jpg)
 * Figure 6：文件加载失败，弹出Toast提示。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%206.jpg) 
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig6.jpg) 
 * Figure 7：成功导入文件，弹出Toast提示。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%207.jpg) 
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig7.jpg) 
 * Figure 8：成功保存文件，弹出Toast提示。  
- ![preview](https://gitee.com/code_sysu/PersonalProject3/blob/master/manual/images/fig%208.jpg) 
+ ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig8.jpg) 
 ###
 1.  如Figure 1至Figure 8所示，本次实验演示应用包含两个Activity。 
 2.  首先是密码输入Activity：
