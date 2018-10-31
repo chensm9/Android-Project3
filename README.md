@@ -27,9 +27,9 @@
  ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig5.jpg)
 * Figure 6：文件加载失败，弹出Toast提示。  
  ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig6.jpg) 
-* Figure 7：成功导入文件，弹出Toast提示。  
+* Figure 7：成功保存文件，弹出Toast提示。  
  ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig7.jpg) 
-* Figure 8：成功保存文件，弹出Toast提示。  
+* Figure 8：成功导入文件，弹出Toast提示。  
  ![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images/fig8.jpg) 
 ###
 1.  如Figure 1至Figure 8所示，本次实验演示应用包含两个Activity。 
