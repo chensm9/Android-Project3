@@ -100,9 +100,11 @@ rawQuery或者query函数返回的都是Cursor，关于Cursor类的详细介绍�
 1. 在AndroidManifest.xml文件里声明读取通讯录的权限
 ```xml
 <uses-permission android:name="android.permission.READ_CONTACT"/>
+```
 2. 使用getContentResolver方法查询相应用户名
 ```java
 Cursor cursor = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null, ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME + " = \"" + username + "\"", null, null);
+```
 3. 判断cursor不为空，且查询到至少一个号码
 4. 读取查询到的号码
 ```java
@@ -111,7 +113,7 @@ String number = "\nPhone: ";
 do {
     number += cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER)) + "         ";
 } while (cursor.moveToNext());
-
+```
 ### 3.ListView中的Item内部控件的点击事件
 看[这里](https://blog.csdn.net/jzhowe/article/details/54767477)
 
