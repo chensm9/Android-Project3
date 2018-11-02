@@ -141,7 +141,7 @@
     1. 使用SQLite数据库保存用户的相关信息和评论的相关信息，使得每次运行程序都可以使用数据库进行用户的登陆与注册，以及显示数据库中的评论；
     2. 使用ContentProvider来获取对应用户的电话号码；
 * #### 功能要求：  
-    1. 如图1至图8所示，本次实验演示应包含2个Activity。
+    1. 如上述各图所示，本次实验演示应包含2个Activity。
     2. 首页Activity包含登录功能和注册功能，通过radioButton在两个页面进行切换,在登陆界面输入正确的用户名和密码后跳转到评论页面。
     3. 评论Activity,界面由ListView、EditText和Button组成，ListView中展示数据库中保存的评论信息，在EditText写评论，点击Send按钮发送评论。
     4. 首页Activity：
