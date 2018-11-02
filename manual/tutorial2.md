@@ -124,7 +124,7 @@ do {
 看[这里](https://www.cnblogs.com/wxmdevelop/p/6180424.html)
 
 ### 参考工程目录结构
-[!preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images2/catalog.png)
+![preview](https://gitee.com/code_sysu/PersonalProject3/raw/master/manual/images2/catalog.png)
 
 ### 注意事项
 1. 关于获取通讯录权限和获取存储权限，在实际操作中，有些手机（比如API19的）是在程勋运行的时候进行询问是否给予权限；有些手机（比如API23的），不会提示，需要你自己到设置界面下开启本应用程序的获取权限。所以，如果你在点击这些相关功能的按钮时闪退，先去看一眼权限有没有开吧。  
