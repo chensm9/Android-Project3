@@ -8,7 +8,7 @@
 
 ### 1.SQLite数据库使用
 
-** 使用SQLiteOpenHelper的子类能更方便实现要求 **
+**使用SQLiteOpenHelper的子类能更方便实现要求**
 
 1. 创建类
 ```java
