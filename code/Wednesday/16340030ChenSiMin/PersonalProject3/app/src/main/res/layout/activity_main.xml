@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="textPassword"
+        android:hint="New Password"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPassword"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPassword"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:layout_margin="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/OK"
+        android:onClick="OKButtonOnClick"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="OK"
+        android:layout_margin="10dp"
+        android:padding= "10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/CLEAR"
+        android:onClick="CLEARButtonOnClick"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassword"
+        app:layout_constraintLeft_toRightOf="@id/OK"
+        android:text="CLEAR"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+</android.support.constraint.ConstraintLayout>
